@@ -11,7 +11,7 @@
     "control": [
         { "VTOY_DEFAULT_MENU_MODE": "1" },
         { "VTOY_TREE_VIEW_MENU_STYLE": "1" },
-        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISOs" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/" },
         { "VTOY_WIN11_BYPASS_CHECK": "1" },
         { "VTOY_WIN11_BYPASS_NRO": "1" },
         { "VTOY_FILT_DOT_UNDERSCORE_FILE": "1" },
@@ -19,19 +19,19 @@
     ],
 
     "menu_alias": [
-        { "dir": "/ISOs/01 - Operating Systems",  "alias": "Operating Systems" },
-        { "dir": "/ISOs/02 - Gaming",              "alias": "Gaming" },
-        { "dir": "/ISOs/03 - Security & Privacy",  "alias": "Security & Privacy" },
-        { "dir": "/ISOs/04 - Recovery & Repair",   "alias": "Recovery & Repair" },
-        { "dir": "/ISOs/05 - Diagnostics",         "alias": "Diagnostics" }
+        { "dir": "/OS",          "alias": "Operating Systems" },
+        { "dir": "/Gaming",      "alias": "Gaming" },
+        { "dir": "/Security",    "alias": "Security & Privacy" },
+        { "dir": "/Recovery",    "alias": "Recovery & Repair" },
+        { "dir": "/Diagnostics", "alias": "Diagnostics" }
     ],
 
     "menu_class": [
-        { "dir":  "/ISOs/01 - Operating Systems",  "class": "os" },
-        { "dir":  "/ISOs/02 - Gaming",              "class": "gaming" },
-        { "dir":  "/ISOs/03 - Security & Privacy",  "class": "security" },
-        { "dir":  "/ISOs/04 - Recovery & Repair",   "class": "recovery" },
-        { "dir":  "/ISOs/05 - Diagnostics",         "class": "diagnostics" },
+        { "dir": "/OS",          "class": "os" },
+        { "dir": "/Gaming",      "class": "gaming" },
+        { "dir": "/Security",    "class": "security" },
+        { "dir": "/Recovery",    "class": "recovery" },
+        { "dir": "/Diagnostics", "class": "diagnostics" },
 
         { "key": "Win11",         "class": "windows" },
         { "key": "Win_11",        "class": "windows" },
