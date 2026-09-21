@@ -1,0 +1,59 @@
+{
+    "theme": {
+        "file": "/ventoy/theme/multiboot-toolkit/theme.txt",
+        "gfxmode": "1920x1080",
+        "display_mode": "GUI",
+        "ventoy_left": "5%",
+        "ventoy_top": "95%",
+        "ventoy_color": "#2a9d8f"
+    },
+
+    "control": [
+        { "VTOY_DEFAULT_MENU_MODE": "1" },
+        { "VTOY_TREE_VIEW_MENU_STYLE": "1" },
+        { "VTOY_DEFAULT_SEARCH_ROOT": "/ISOs" },
+        { "VTOY_WIN11_BYPASS_CHECK": "1" },
+        { "VTOY_WIN11_BYPASS_NRO": "1" },
+        { "VTOY_FILT_DOT_UNDERSCORE_FILE": "1" },
+        { "VTOY_SORT_CASE_SENSITIVE": "0" }
+    ],
+
+    "menu_alias": [
+        { "dir": "/ISOs/01 - Operating Systems",  "alias": "Operating Systems" },
+        { "dir": "/ISOs/02 - Gaming",              "alias": "Gaming" },
+        { "dir": "/ISOs/03 - Security & Privacy",  "alias": "Security & Privacy" },
+        { "dir": "/ISOs/04 - Recovery & Repair",   "alias": "Recovery & Repair" },
+        { "dir": "/ISOs/05 - Diagnostics",         "alias": "Diagnostics" }
+    ],
+
+    "menu_class": [
+        { "dir":  "/ISOs/01 - Operating Systems",  "class": "os" },
+        { "dir":  "/ISOs/02 - Gaming",              "class": "gaming" },
+        { "dir":  "/ISOs/03 - Security & Privacy",  "class": "security" },
+        { "dir":  "/ISOs/04 - Recovery & Repair",   "class": "recovery" },
+        { "dir":  "/ISOs/05 - Diagnostics",         "class": "diagnostics" },
+
+        { "key": "Win11",         "class": "windows" },
+        { "key": "Win_11",        "class": "windows" },
+        { "key": "windows",       "class": "windows" },
+        { "key": "ubuntu",        "class": "ubuntu" },
+        { "key": "debian",        "class": "debian" },
+        { "key": "linuxmint",     "class": "mint" },
+        { "key": "mint",          "class": "mint" },
+        { "key": "pop-os",        "class": "popos" },
+        { "key": "pop_os",        "class": "popos" },
+        { "key": "bazzite",       "class": "bazzite" },
+        { "key": "pikaos",        "class": "pikaos" },
+        { "key": "pika",          "class": "pikaos" },
+        { "key": "nobara",        "class": "nobara" },
+        { "key": "kali",          "class": "kali" },
+        { "key": "tails",         "class": "tails" },
+        { "key": "systemrescue",  "class": "systemrescue" },
+        { "key": "gparted",       "class": "gparted" },
+        { "key": "clonezilla",    "class": "clonezilla" },
+        { "key": "rescuezilla",   "class": "rescuezilla" },
+        { "key": "Hirens",        "class": "hirens" },
+        { "key": "HBCD",          "class": "hirens" },
+        { "key": "memtest",       "class": "memtest" }
+    ]
+}
