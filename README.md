@@ -83,8 +83,8 @@ multiboot-toolkit/
 
 1. **Clone this repository** (or download it):
    ```bash
-   git clone https://github.com/YOUR_USERNAME/multiboot-toolkit.git
-   cd multiboot-toolkit
+   git clone https://github.com/AdityaTummuri/cool_ventoy.git
+   cd cool_ventoy
    ```
 
 2. **Copy the `ventoy/` directory** to the root of your Ventoy USB:
